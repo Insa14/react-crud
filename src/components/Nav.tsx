@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom";
 
-export default function Home() {
+export default function Nav() {
     return(
         <>
             <h1>Nav</h1>
@@ -10,6 +10,9 @@ export default function Home() {
                 </li>
                 <li>
                     <Link to="/about">About</Link>
+                </li>
+                <li>
+                    <Link to="/routerproptest">RouterPropTest</Link>
                 </li>
             </ul>
         </>
