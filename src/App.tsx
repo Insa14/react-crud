@@ -4,6 +4,8 @@ import Home from "./routes/Home";
 import About from "./routes/About";
 import RouterPropTest from "./routes/RouterPropTest";
 import RouterPropTestResult from "./routes/RouterPropTestResult";
+import StudentList from "./routes/StudentList";
+import StudentDetail from "./routes/StudentDetail";
 import Nav from "./components/Nav";
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
             <Route path="/about">{About}</Route>
             <Route path="/routerproptest">{RouterPropTest}</Route>
             <Route path="/routerproptestresult">{RouterPropTestResult}</Route>
+            <Route exact path="/studentlist">{StudentList}</Route>
+            <Route path="/studentlist/:id">{StudentDetail}</Route>
           </Switch>
       </Router>
     </>

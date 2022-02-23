@@ -14,7 +14,7 @@ export default function RouterPropTestResult(prop:propTypes) {
     const price = prop.location.state.menu.price;
     return(
         <>
-            <h1>Router Prop TestResult</h1>
+        <h1>Router Prop TestResult</h1>
             <div>{name}</div>
             <div>{price}</div>
         </>
